@@ -5,29 +5,21 @@ html {
 
 body {
     background-color: #000000;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
 }
-.conteudo{
+.contentPT{
     height: 100vh;
     width: 80%;
-    margin: 0 auto;
+
 }
 .pcDecoration {
     width: 300px;
     height: 250px;
     /* margin-bottom: 10rem; */
-    /* margin-left: 45rem; */
+    margin: 0 25rem;
     
 }
 
-.Menu {
-
-    width: 85vw;
-    height: 100vh;
-
-
-
-}
 .title{
     width: 100%;
     height: 30rem;
@@ -46,7 +38,7 @@ body {
     height: 25px;
     border-radius: 999px;
     border: none;
-    padding: 2px 2px;
+    padding: 0 3px;
 
 
 }
@@ -72,19 +64,21 @@ body {
     color: #FFF;
     font-family: "Advent Pro";
     margin: 0 auto;
-    padding-left: 5px;
-    font-size: 1.3rem;
+
+
 }
-.Menu{
-    /* display: grid;
-    grid-template-columns: repeat(2, minmax(100px, .5fr)); */
-    
+.menu{
+    display: flex;
+    width: 90vw;
+    height: 100vh;
+    /* margin: 15rem 20rem; */
+
 }
 .personalInformations h1 {
     margin-bottom: 0;
     color: #e53939;
     font-family: "Advent Pro";
-    font-size: 4rem;
+    font-size: 6rem;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -94,54 +88,116 @@ body {
 .personalInformations h2 {
     color: #FFF;
     font-family: "Advent Pro";
-    font-size: 2.2rem;
+    font-size: 3.2rem;
     font-style: normal;
     font-weight: 100;
     line-height: normal;
-    padding-left: 8rem;
     margin-top: 0;
 }
 
-.personalInformations {
-    float: right;
-}
+
 
 .about {
     color: #FFF;
     font-family: "Advent Pro";
-    font-size: 2.2rem;
+    font-size: 2.7rem;
     font-style: normal;
     font-weight: 100;
+    padding-left: 15rem;
     line-height: normal;
     height: 100vh;
-    padding-left: 30rem;
+}
+.about h1{
+    font-size: 6rem;
 
 }
-@media (max-width:800px){
+.personalTastes{
+    color: #FFF;
+    font-family: "Advent Pro";
+    font-size: 3.2rem;
+    font-style: normal;
+    font-weight: 100;
+    padding-left: 5rem;
+    line-height: normal;
+    height: 100vh;
+}
+.personalTastes h1{
+    font-size: 6rem;
+    padding-left: 15rem;
+}
+.experience hr{
+    border: solid 1px white;
+    width: .3px;
+    height: 20rem;
+
+
+}
+.textExperience{
+    width: 30rem;
+}
+.textExperience h2{
+    margin: 7px 0;
+    font-size:2.5rem;
+    font-weight: 300;
+}
+.textExperience h3{
+    font-size: 2rem;
+    font-weight: 300;
+    margin: 0;
+    float: right;
+}
+.textExperience p{
+    padding-top: 30px;
+    font-size: 2rem;
+}
+.experience{
+    padding-left: 37rem;
+    display: grid;
+    grid-template-columns: 100px 100px;
+}
+.boll{
+
+    margin: 0 auto;
+    background-color: #FFF;
+    width: 20px;
+    height: 20px;
+    border-radius: 999px;
+
+}
+.boll2{
+
+    margin: 0 auto;
+    margin-top: 15rem;
+    background-color: #FFF;
+    width: 20px;
+    height: 20px;
+    border-radius: 999px;
+
+}
+
+@media (max-width:1405px){
     html{
-        font-size:50%;
+        font-size:60%;
     }
     .pcDecoration {
-        width: 230px;
-        height: 185px;
+        width: 280px;
+        height: 230px;
+        margin: 0 10rem;
 
     }
+    .conteudo{
+        padding-top: 40rem;
+    }
+    .personalInformations{
+        padding-left: 11rem;
+    }
+    .language{
+        font-size:14px;
+    }
 }
-@media (max-width:630px){
+@media (max-width:908px){
     html{
         font-size:45%;
-    }
-    .pcDecoration {
-        width: 200px;
-        height: 150px;
-        
-
-    }
-
-}
-@media (max-width:566px){
-    html{
-        font-size:40%;
     }
     .conteudo{
         height: 100vh;
@@ -149,9 +205,29 @@ body {
         margin: 0 10px;
     }
     .pcDecoration {
-        padding-bottom: 10px;
         width: 200px;
         height: 150px;
 
+    }
+    .personalInformations {
+        padding-left: 35px;
+    }
+    .language{
+        font-size:14px;
+    }
+}
+
+@media (max-width:759px){
+    html{
+        font-size:35%;
+    }
+    .conteudo{
+        padding-top: 50%;
+    }
+    .personalInformations h2 {
+        padding-left: 13px;
+    }
+    .language{
+        font-size:14px;
     }
 }
