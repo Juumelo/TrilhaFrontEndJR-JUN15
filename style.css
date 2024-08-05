@@ -38,7 +38,7 @@ body {
     height: 25px;
     border-radius: 999px;
     border: none;
-    padding: 0 3px;
+    padding: 2px 2px;
 
 
 }
@@ -150,10 +150,31 @@ body {
     padding-top: 30px;
     font-size: 2rem;
 }
+.textExperience2 h2{
+    margin: 7px 0;
+    font-size:2.5rem;
+    font-weight: 300;
+}
+.textExperience2 h3{
+    font-size: 2rem;
+    font-weight: 300;
+    margin: 0;
+    float: right;
+}
+.textExperience2 p{
+    padding-top: 30px;
+    font-size: 2rem;
+}
+.textExperience2{
+    width: 30rem;
+    padding-left:20%;
+
+    
+}
 .experience{
     padding-left: 37rem;
     display: grid;
-    grid-template-columns: 100px 100px;
+    grid-template-columns: 100px 100px ;
 }
 .boll{
 
