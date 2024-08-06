@@ -10,7 +10,11 @@ body {
 .contentPT{
     height: 100vh;
     width: 80%;
+    display: block;
 
+}
+.contentUS{
+    display: none;
 }
 .pcDecoration {
     width: 300px;
@@ -103,7 +107,7 @@ body {
     font-size: 2.7rem;
     font-style: normal;
     font-weight: 100;
-    padding-left: 15rem;
+    padding-left: 25rem;
     line-height: normal;
     height: 100vh;
 }
@@ -123,16 +127,16 @@ body {
 }
 .personalTastes h1{
     font-size: 6rem;
-    padding-left: 15rem;
+    padding-left: 41rem;
 }
+
 .experience hr{
     border: solid 1px white;
     width: .3px;
     height: 20rem;
-
-
 }
 .textExperience{
+    padding-top: 5px;
     width: 30rem;
 }
 .textExperience h2{
@@ -150,6 +154,9 @@ body {
     padding-top: 30px;
     font-size: 2rem;
 }
+.textExperience2{
+    padding-top: 35px;
+}
 .textExperience2 h2{
     margin: 7px 0;
     font-size:2.5rem;
@@ -165,12 +172,7 @@ body {
     padding-top: 30px;
     font-size: 2rem;
 }
-.textExperience2{
-    width: 30rem;
-    padding-left:20%;
 
-    
-}
 .experience{
     padding-left: 37rem;
     display: grid;
